@@ -1,6 +1,15 @@
 # Trabalho Prático — Divisão e Conquista
 
-Implementações em **Python 3** dos dois problemas do enunciado: subarranjo de soma máxima e par de pontos mais próximos, comparando força bruta e divisão e conquista. Também está incluída a variante O(n) do subarranjo (questão-desafio citada nos critérios).
+## Repositório GitHub
+
+O código-fonte, os testes, os gráficos e o relatório
+estão disponíveis no repositório:
+
+https://github.com/joaosantoscarv/Trabalho-Divisao-e-Conquista
+
+O projeto foi desenvolvido individualmente e
+versionado utilizando Git e GitHub.
+
 
 ## Arquivos
 
@@ -31,9 +40,9 @@ Se o comando `python` não funcionar, tente `py` no Windows.
 ### Etapa 1 — Subarranjo
 
 ```powershell
-python main.py subarranjo --metodo bruto --valores "-2,1,-3,4,-1,2,1,-5,4"
-python main.py subarranjo --metodo divisao --valores "-2,1,-3,4,-1,2,1,-5,4"
-python main.py subarranjo --metodo linear --valores "-2,1,-3,4,-1,2,1,-5,4"
+python main.py subarranjo --metodo bruto --valores=-2,1,-3,4,-1,2,1,-5,4
+python main.py subarranjo --metodo divisao --valores=-2,1,-3,4,-1,2,1,-5,4
+python main.py subarranjo --metodo linear --valores=-2,1,-3,4,-1,2,1,-5,4
 ```
 
 Saída esperada (para os três métodos): soma `6`, índices `[3, 6]`, subarranjo `[4, -1, 2, 1]`. Índices começam em zero e o fim é inclusivo. Empates usam o menor início e, depois, o menor fim. O subarranjo deve conter pelo menos um elemento.
@@ -68,28 +77,4 @@ Por padrão, mede 5 execuções (mais uma de aquecimento, fora das medições) p
 
 O algoritmo de pontos recebe duas listas inicialmente ordenadas (por x e por y). A divisão preserva a ordem em y; na faixa central, compara no máximo 7 sucessores de cada ponto. Usa o limiar 32 para trocar recursão por força bruta em subproblemas pequenos sem mudar a ordem assintótica.
 
-## Publicar no GitHub
 
-O enunciado pede **repositório Git com histórico de commits ao longo do desenvolvimento**. Este ZIP contém os arquivos, mas **não cria retrospectivamente esse histórico**. Na pasta do trabalho:
-
-```powershell
-git init
-git add algoritmos.py main.py casos_teste.json test_algoritmos.py
-git commit -m "Implementa algoritmos e testes"
-git add benchmark.py experimento_limiar.py requirements.txt README.md medicoes_brutas.csv resumo_medicoes.csv limiar_medicoes.csv ambiente_medicao.json graficos/ Relatorio_Divisao_e_Conquista.pdf
-git commit -m "Adiciona experimentos, graficos e relatorio"
-```
-
-Depois crie um repositório **vazio** no GitHub e use a URL de seu repositório:
-
-```powershell
-git branch -M main
-git remote add origin URL_DO_SEU_REPOSITORIO
-git push -u origin main
-```
-
-Os commits gerados agora documentam a preparação atual, **não** substituem o histórico real de semanas pedido pelo professor. Complete autoria, dupla e dados de capa antes da entrega.
-
-## Observação sobre o enunciado
-
-A Etapa 3 dá tamanhos de exemplo e chama-os de "dígitos" embora a Etapa 2 trabalhe com pontos. Aqui os tamanhos representam **quantidades de elementos ou pontos**. Os critérios citam uma versão linear O(n) de "questão desafio" que não é detalhada no corpo do texto; foi fornecida como a versão linear do subarranjo máximo, que possui solução O(n).

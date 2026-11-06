@@ -1,0 +1,21 @@
+﻿problema,algoritmo,n,execucoes,media_ms,desvio_padrao_ms,min_ms,max_ms
+pontos,Divisão e conquista,100,5,2.9125,0.568452,2.0108,3.4523
+pontos,Divisão e conquista,200,5,2.01774,0.182052,1.8404,2.3243
+pontos,Divisão e conquista,400,5,5.40068,1.280373,4.0292,6.5576
+pontos,Divisão e conquista,800,5,13.25662,1.705381,11.6621,16.0776
+pontos,Força bruta,100,5,6.85462,2.251207,3.4598,9.5556
+pontos,Força bruta,200,5,19.46784,3.77176,14.7445,24.5689
+pontos,Força bruta,400,5,60.32904,9.619523,54.0932,77.408
+pontos,Força bruta,800,5,282.16554,53.326691,243.1183,373.29
+subarranjo,Divisão e conquista,100,5,0.21296,0.031794,0.1932,0.2683
+subarranjo,Divisão e conquista,200,5,1.9204,0.916145,1.0408,3.2743
+subarranjo,Divisão e conquista,400,5,1.72512,0.280044,1.4521,2.0961
+subarranjo,Divisão e conquista,800,5,2.37306,0.315875,2.0872,2.7456
+subarranjo,Força bruta,100,5,1.72176,0.553485,1.3346,2.6306
+subarranjo,Força bruta,200,5,15.99196,8.221965,5.4578,26.6413
+subarranjo,Força bruta,400,5,44.2613,8.136768,36.3122,54.3094
+subarranjo,Força bruta,800,5,140.7029,17.557183,114.8157,160.9552
+subarranjo,Linear O(n),100,5,0.05636,0.002882,0.0535,0.0608
+subarranjo,Linear O(n),200,5,0.1739,0.042998,0.152,0.2507
+subarranjo,Linear O(n),400,5,0.2734,0.078688,0.2202,0.4113
+subarranjo,Linear O(n),800,5,0.6855,0.156308,0.5513,0.8669

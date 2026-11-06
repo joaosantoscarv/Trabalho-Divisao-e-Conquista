@@ -1,0 +1,22 @@
+{
+  "momento_utc": "2026-11-06T03:48:21+00:00",
+  "sistema": "Windows-10-10.0.26300-SP0",
+  "python": "3.11.9",
+  "cpu_modelo_reportado": "Intel64 Family 6 Model 154 Stepping 4, GenuineIntel",
+  "cpus_logicas_visiveis": 12,
+  "nota": "Medições realizadas no ambiente de execução que gerou o trabalho; esses números não representam o computador do aluno.",
+  "seed": 2026,
+  "tamanhos": [
+    100,
+    200,
+    400,
+    800
+  ],
+  "execucoes_por_algoritmo_tamanho": 5,
+  "limiar_par_mais_proximo": 32,
+  "relogio": "time.perf_counter_ns; tempo em milissegundos",
+  "aquecimento": "uma chamada não medida para cada configuração",
+  "tipo_entrada_subarranjo": "inteiros uniformes em [-100,100]",
+  "tipo_entrada_pontos": "coordenadas uniformes em [-5000,5000]",
+  "comparacoes": "mesma entrada para métodos do mesmo problema e tamanho"
+}
